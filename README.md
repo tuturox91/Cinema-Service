@@ -53,5 +53,5 @@ The project is divided into several logical levels:
 
 ## 🛠️ Setup guide
 
-You can find setup guide in guthub [wiki](https://github.com/tuturox91/Cinema-Service/wiki "wiki").
+You can find setup guide in guthub [wiki](https://github.com/tuturox91/Cinema-Service/wiki/Start-work-with-project "wiki").
    
