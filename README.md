@@ -1,8 +1,8 @@
 # Cinema Service
 
 A RESTful cinema service, where you can search movies and movies sessions.
-As a user, you can add tickets to shopping cart and affter purchase them.
-As admin you can manage data records in database.
+<br>As a user, you can add tickets to shopping cart and affter purchase them.
+<br>As admin you can manage data records in database.
 
 ## Features 
 
