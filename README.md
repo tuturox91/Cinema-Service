@@ -1,10 +1,10 @@
-# Cinema Service
+# 🎞️ Cinema Service 🎞️
 
 A RESTful cinema service, where you can search movies and movies sessions.
 <br>As a user, you can add tickets to shopping cart and affter purchase them.
 <br>As admin you can manage data records in database.
 
-## Features 
+## :star: Features  
 
 * Login/logout users
 * Register new Usrts
@@ -33,7 +33,7 @@ A RESTful cinema service, where you can search movies and movies sessions.
 * Data encryption
 * Login/register validation
 
-## Technologies
+## :computer: Technologies
 * JDK 17
 * Spring Core, Spring Web, Spring Security
 * JPA, Hibernate
@@ -41,17 +41,17 @@ A RESTful cinema service, where you can search movies and movies sessions.
 * MySQL 8
 * Tomcat 9
 
-## Project structure
+## :clipboard: Project structure
 
 The project is divided into several logical levels:
   * `@RestController:` Reads **POST/GET** requests and use autowired **services, mappers** and **DTO** for create and return response.
   * `@Service:` Interacts with **DAO** level and contains business logic.
   * `@Repository` or **DAO** level: interacts with database.
 
-### DB/Model structure
+### 🖼️ DB/Model structure
 ![img.png](img.png)
 
-## Setup guide
+## 🛠️ Setup guide
 
 You can find setup guide in guthub [wiki](https://github.com/tuturox91/Cinema_RESTful_Service/wiki "wiki").
    
