@@ -1,35 +1,55 @@
-# :oncoming_taxi: Taxi Service :oncoming_taxi:
+# 🎞️ Cinema Service 🎞️
 
-Simple web app, where you can manage data.
+A RESTful cinema service, where you can search movies and movies sessions.
+<br>As a user, you can add tickets to shopping cart and affter purchase them.
+<br>As admin you can manage data records in database.
 
 ## :star: Features  
 
-* Login/logout as driver
-* Add/Delete/Get:
-  * drivers
-  * cars
-  * manufacturers
-* WEB-jsp UI
+* Login/logout users
+* Register new Usrts
+* Roles with rights: User/Admin
+* User right:
+  * Request:
+    * Own orders
+    * Own cart
+    * Available movie sessions
+    * List of cinema halls
+    * Lst of movies
+* Admin rights:
+  * Request:
+    * List of cinema halls
+    * Lst of movies
+    * Available movie sessions
+    * Users by email
+  * Add:
+    * Cinema halls
+    * Movies
+    * Movie sessions
+  * Update:
+    *  Movie sessions
+  * Delete:
+    * Movie sessions
+* Data encryption
+* Login/register validation
 
 ## :computer: Technologies
-* JDK 11
+* JDK 17
+* Spring Core, Spring Web, Spring Security
+* JPA, Hibernate
 * Apache Maven
-* JDBC
 * MySQL 8
 * Tomcat 9
-* JSTL
-* JSP
-* Servlet API
 
 ## :clipboard: Project structure
 
-The project is divided into several levels:
- * Presentation tier: UI is represented by a JSP, translated into a Java servlet/Controller and executed on the server.
- * Logic tier: business logic service classes that move and process data between the data and presentation layers.
- * Data tier: data store/retrieve layer.
+The project is divided into several logical levels:
+  * `@RestController:` Reads **POST/GET** requests and use autowired **services, mappers** and **DTO** for create and return response.
+  * `@Service:` Interacts with **DAO** level and contains business logic.
+  * `@Repository` or **DAO** level: interacts with database.
 
 ### 🖼️ DB/Model structure
-![taxiDB](taxiDB.png)
+![img.png](img.png)
 
 ## 🛠️ Setup guide
 
